@@ -1,0 +1,47 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+body {
+  background: #f4f5f9;
+}
+.email-card {
+  display: flex;
+  border: 2px solid #cfd2dc;
+  border-radius: 5px;
+  padding: 4px;
+  background: #fff;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.card.selected {
+  background: #f2f2f2;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  background: #e54065;
+  margin: 8px;
+}
+
+.mark-favorite {
+  cursor: pointer;
+}
+#filters {
+  display: flex;
+}
+.filter {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.email-card.active {
+  border: 1px solid #e54065;
+}
