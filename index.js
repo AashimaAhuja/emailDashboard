@@ -52,7 +52,7 @@ import { BASE_URL } from "../constants";
   async function openEmail(event, id) {
     const emailClicked = event.target;
     emailClicked.closest(".email-card").classList.add("active");
-
+    console.log("hello");
     const emailContent = await fetchEmailBody(`${BASE_URL}/?id=${id}`);
     console.log(emailContent);
     document.getElementsById("content-body").innerHTML = emailContent.body;
