@@ -9,10 +9,10 @@ body {
   display: flex;
   border: 2px solid #cfd2dc;
   border-radius: 5px;
-  padding: 4px;
   background: #fff;
   cursor: pointer;
-  margin: 8px;
+  margin-bottom: 16px;
+  padding: 16px;
 }
 
 .card.selected {
@@ -44,4 +44,39 @@ body {
 
 .email-card.active {
   border: 1px solid #e54065;
+}
+
+#email-portal {
+  display: flex;
+}
+#email-list {
+  width: 100%;
+  margin: 16px;
+}
+
+#email-content {
+  display: none;
+  border: 2px solid #cfd2dc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 16px;
+  margin: 16px;
+}
+
+#email-content > .avatar {
+  width: 40%;
+}
+#email-content > .content {
+  padding: 16px;
+}
+.email-card.read {
+  background-color: #f2f2f2;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
 }
